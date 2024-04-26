@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  database:
+    image: postgres:latest
+    restart: always
+    ports:
+      - 5433:5433
+    container_name: examinr-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ktor-examinr

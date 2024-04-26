@@ -1,0 +1,2 @@
+package consulting.hippone.shared
+
